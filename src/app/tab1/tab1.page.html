@@ -1,17 +1,93 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <div>
+    <ion-img src="../../assets/city.svg">
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+    </ion-img>
+  </div>
+  <div class="fixed-top mt-5">
+    <ion-list class="bg-transparent">
+      <p class="text-center text-white font-weight-bold mb-0">
+        Abang Express
+      </p>
+      <p class="text-center text-white ">
+        Agen Jogjakarta
+      </p>
+      <ion-card>
+        <ion-item lines="none" class="my-2">
+          <ion-img src="../../assets/men.svg" slot="start" class="mt-2">
+          </ion-img>
+          <ion-label class="text-center font-weight-bold">Offline</ion-label>
+          <ion-toggle slot="end"> </ion-toggle>
+
+        </ion-item>
+      </ion-card>
+      <div class="row">
+        <div class="col pr-0">
+          <app-card-icon title="Pending" subTitle="1 pickup"> </app-card-icon>
+        </div>
+        <div class="col  pl-0">
+          <app-card-icon title="Inprogress" subTitle="1 pickup"> </app-card-icon>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col pr-0">
+          <app-card-icon title="Success" subTitle="1 pickup"> </app-card-icon>
+        </div>
+        <div class="col pl-0">
+          <app-card-icon title="Trouble" subTitle="1 pickup"> </app-card-icon>
+        </div>
+      </div>
+      <ion-item lines="none">
+        <ion-label class="font-weight-bold" slot="start">
+          Pending
+        </ion-label>
+        <ion-label class="font-weight-bold" color="danger" slot="end">
+          Lihat Semua
+        </ion-label>
+      </ion-item>
+      <ion-card>
+        <ion-item lines="none" class="border-bottom">
+          <div slot="start">
+            <div class="row mt-3">
+              <div class="col pr-0 mt-2">
+                <div class="bg-primary p-1 rounded">
+                  <ion-img src="../../assets/truck.svg" style="max-width: 40px;">
+                  </ion-img>
+                </div>
+              </div>
+
+              <div class="col">
+                <p class="mb-0 font-weight-bold">
+                  #1234566788
+                </p>
+                <p class="">
+                  10 Sep 2021
+                </p>
+              </div>
+            </div>
+
+          </div>
+          <div slot="end ">
+            <p>
+              Pending
+            </p>
+          </div>
+        </ion-item>
+        <ion-item>
+          <ion-label >
+            <h4 class="text-secondary">Berat</h4>
+            <p class="text-dark">32 Kg</p>
+          </ion-label>
+          <ion-label>
+            <h4 class="text-secondary">Total Paket</h4>
+            <p class="text-dark">50</p>
+          </ion-label>
+          <ion-label slot="end">
+            <h4 class="text-secondary">Estimasi</h4>
+            <p class="text-dark">10 Sep 2021, 20:20 WIB</p>
+          </ion-label>
+        </ion-item>
+      </ion-card>
+    </ion-list>
+  </div>
 </ion-content>
