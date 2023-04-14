@@ -26,9 +26,7 @@ export class IntroPage implements OnInit {
 		// this.slides.slideNext();
 	}
 
-	async start() {
-		// await Storage.set({ key: INTRO_KEY, value: 'true' });
-		// this.router.navigateByUrl('/login', { replaceUrl: true });
-    this.router.navigateByUrl('tabs', { replaceUrl: true });
-	}
+	navigate(){
+    this.router.navigateByUrl('login');
+  }
 }

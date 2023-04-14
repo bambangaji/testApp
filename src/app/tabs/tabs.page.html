@@ -1,18 +1,35 @@
 <ion-tabs>
   <ion-tab-bar slot="bottom">
     <ion-tab-button tab="tab1">
-      <ion-icon aria-hidden="true" name="triangle"></ion-icon>
-      <ion-label>Tab 1</ion-label>
+      <ion-icon name="home-outline"></ion-icon>
+      <ion-label>Beranda</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="costs">
+      <ion-icon name="map"></ion-icon>
+      <ion-label>Nearby</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button></ion-tab-button>
+
+    <ion-tab-button tab="debts">
+      <ion-icon name="notifications"></ion-icon>
+      <ion-label>Notification</ion-label>
     </ion-tab-button>
 
     <ion-tab-button tab="tab2">
-      <ion-icon aria-hidden="true" name="ellipse"></ion-icon>
-      <ion-label>Tab 2</ion-label>
-    </ion-tab-button>
-
-    <ion-tab-button tab="tab3">
-      <ion-icon aria-hidden="true" name="square"></ion-icon>
-      <ion-label>Tab 3</ion-label>
+      <ion-icon name="person"></ion-icon>
+      <ion-label>Profile</ion-label>
     </ion-tab-button>
   </ion-tab-bar>
 </ion-tabs>
+
+<ion-fab vertical="bottom" horizontal="center" slot="fixed" edge="false" class="mb-1">
+  <ion-fab-button type="button" color="red">
+      <ion-icon name="briefcase"></ion-icon>
+      
+  </ion-fab-button>
+</ion-fab>
+<p class="mb-0 text-special">
+  Paket Anda
+</p>

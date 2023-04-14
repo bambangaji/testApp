@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -12,9 +13,18 @@ import { IonicModule } from '@ionic/angular';
 })
 export class LoginPage implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
   }
+  navigate() {
+    this.router.navigateByUrl('tabs', { replaceUrl: true });
+  }
 
+  showPassword = false;
+  inputPasswordType = 'password';
+  toggleShow() {
+    this.showPassword = !this.showPassword;
+    this.inputPasswordType = this.showPassword ? 'text' : 'password';
+  }
 }

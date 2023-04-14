@@ -1,0 +1,72 @@
+:root {
+    --ion-color-gold: #ffd700;
+    --ion-color-gold-rgb: 255, 215, 0;
+    --ion-color-gold-contrast: #000000;
+    --ion-color-gold-contrast-rgb: 0, 0, 0;
+    --ion-color-gold-shade: #e0bd00;
+    --ion-color-gold-tint: #ffdb1a;
+
+    --ion-color-red:  #E52138;
+	--ion-color-red-rgb: 229,33,56;
+	--ion-color-red-contrast: #ffffff;
+	--ion-color-red-contrast-rgb: 255,255,255;
+	--ion-color-red-shade: #ca1d31;
+	--ion-color-red-tint: #e8374c;
+
+    --ion-color-peach:  #FFFAEB;
+	--ion-color-peach-rgb: 229,33,56;
+	--ion-color-peach-contrast: #ffffff;
+	--ion-color-peach-contrast-rgb: 255,255,255;
+	--ion-color-peach-shade: #FFFAEB;
+	--ion-color-peach-tint: #FFFAEB;
+
+    --ion-color-orange:  #F59F00;
+	--ion-color-orange-rgb: 229,33,56;
+	--ion-color-orange-contrast: #ffffff;
+	--ion-color-orange-contrast-rgb: 255,255,255;
+	--ion-color-orange-shade: #F59F00;
+	--ion-color-orange-tint: #F59F00;
+}
+.ion-color-gold {
+    --ion-color-base: var(--ion-color-gold) !important;
+    --ion-color-base-rgb: var(--ion-color-gold-rgb) !important;
+    --ion-color-contrast: var(--ion-color-gold-contrast) !important;
+    --ion-color-contrast-rgb: var(--ion-color-gold-contrast-rgb) !important;
+    --ion-color-shade: var(--ion-color-gold-shade) !important;
+    --ion-color-tint: var(--ion-color-gold-tint) !important;
+}
+.ion-color-red {
+	--ion-color-base: var(--ion-color-red);
+	--ion-color-base-rgb: var(--ion-color-red-rgb);
+	--ion-color-contrast: var(--ion-color-red-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-red-contrast-rgb);
+	--ion-color-shade: var(--ion-color-red-shade);
+	--ion-color-tint: var(--ion-color-red-tint);
+}
+.ion-color-peach {
+	--ion-color-base: var(--ion-color-peach);
+	--ion-color-base-rgb: var(--ion-color-peach-rgb);
+	--ion-color-contrast: var(--ion-color-peach-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-peach-contrast-rgb);
+	--ion-color-shade: var(--ion-color-peach-shade);
+	--ion-color-tint: var(--ion-color-peach-tint);
+}
+.ion-color-orange {
+	--ion-color-base: var(--ion-color-orange);
+	--ion-color-base-rgb: var(--ion-color-orange-rgb);
+	--ion-color-contrast: var(--ion-color-orange-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-orange-contrast-rgb);
+	--ion-color-shade: var(--ion-color-orange-shade);
+	--ion-color-tint: var(--ion-color-orange-tint);
+}
+.bg-color-peach {
+    background-color: #FFFAEB;
+  }
+  
+  .bg-color-orange {
+    background-color: #F59F00;
+  }
+  .bg-color-red {
+    background-color: #E52138;
+  }
+  
